@@ -1,0 +1,120 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pg_product_security
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-27 20:25+0000\n"
+"PO-Revision-Date: 2021-04-27 20:25+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: pg_product_security
+#: model:ir.module.category,description:pg_product_security.security_product
+msgid ""
+"\n"
+"            Security for Product\n"
+"        "
+msgstr ""
+"\n"
+"            Seguridad por Producto\n"
+"        "
+
+#. module: pg_product_security
+#: model:res.groups,name:pg_product_security.security_product_archive
+msgid "Archive Product"
+msgstr "Archivar Producto"
+
+#. module: pg_product_security
+#: model:ir.model.fields,field_description:pg_product_security.field_product_product__can_edit_cost
+#: model:ir.model.fields,field_description:pg_product_security.field_product_template__can_edit_cost
+msgid "Can Edit Cost"
+msgstr "Puede editar el costo"
+
+#. module: pg_product_security
+#: model:ir.model.fields,field_description:pg_product_security.field_product_product__can_edit_price
+#: model:ir.model.fields,field_description:pg_product_security.field_product_template__can_edit_price
+msgid "Can Edit Price"
+msgstr "Puede editar el precio"
+
+#. module: pg_product_security
+#: model:ir.model.fields,field_description:pg_product_security.field_stock_quant__can_edit_quantity
+msgid "Can Edit Quantity"
+msgstr "Puede editar la cantidad"
+
+#. module: pg_product_security
+#: model:ir.model.fields,field_description:pg_product_security.field_product_product__display_name
+#: model:ir.model.fields,field_description:pg_product_security.field_product_template__display_name
+#: model:ir.model.fields,field_description:pg_product_security.field_stock_quant__display_name
+msgid "Display Name"
+msgstr "Nombre a Mostrar"
+
+#. module: pg_product_security
+#: model:ir.model.fields,field_description:pg_product_security.field_product_product__id
+#: model:ir.model.fields,field_description:pg_product_security.field_product_template__id
+#: model:ir.model.fields,field_description:pg_product_security.field_stock_quant__id
+msgid "ID"
+msgstr "ID"
+
+#. module: pg_product_security
+#: model:ir.model.fields,field_description:pg_product_security.field_product_product____last_update
+#: model:ir.model.fields,field_description:pg_product_security.field_product_template____last_update
+#: model:ir.model.fields,field_description:pg_product_security.field_stock_quant____last_update
+msgid "Last Modified on"
+msgstr "Ultima Modificación en"
+
+#. module: pg_product_security
+#: model:res.groups,name:pg_product_security.security_product_create
+msgid "No Create Product"
+msgstr "No Crear Producto"
+
+#. module: pg_product_security
+#: model:res.groups,name:pg_product_security.security_product_no_create_edit_views
+msgid "No Create/Edit in other Views"
+msgstr "No Crear/Editar en otras vistas"
+
+#. module: pg_product_security
+#: model:res.groups,name:pg_product_security.security_product_edit
+msgid "No Edit Product"
+msgstr "No editar producto"
+
+#. module: pg_product_security
+#: model:ir.model,name:pg_product_security.model_product_product
+msgid "Product"
+msgstr "Producto"
+
+#. module: pg_product_security
+#: model:ir.model,name:pg_product_security.model_product_template
+msgid "Product Template"
+msgstr "Plantilla de Producto"
+
+#. module: pg_product_security
+#: model:res.groups,name:pg_product_security.security_product_price
+msgid "Product update Price"
+msgstr "Actualizar precio producto"
+
+#. module: pg_product_security
+#: model:res.groups,name:pg_product_security.security_product_cost
+msgid "Product update cost"
+msgstr "Actualizar costo de producto"
+
+#. module: pg_product_security
+#: model:res.groups,name:pg_product_security.security_product_quantity
+msgid "Product update quantity"
+msgstr "Actualizar cantidad de producto"
+
+#. module: pg_product_security
+#: model:ir.model,name:pg_product_security.model_stock_quant
+msgid "Quants"
+msgstr "Quants"
+
+#. module: pg_product_security
+#: model:ir.module.category,name:pg_product_security.security_product
+msgid "Security Product"
+msgstr "Seguridad de productos"

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="security_product" model="ir.module.category">
+        <field name="name">Security Product</field>
+        <field name="description">
+            Security for Product
+        </field>
+        <field name="sequence">5</field>
+    </record>
+    <record id="security_product_edit" model="res.groups">
+        <field name="name">No Edit Product</field>
+        <field name="category_id" ref="security_product"/>
+    </record>
+    <record id="security_product_create" model="res.groups">
+        <field name="name">No Create Product</field>
+        <field name="category_id" ref="security_product"/>
+    </record>
+    <record id="security_product_price" model="res.groups">
+        <field name="name">Product update Price</field>
+        <field name="category_id" ref="security_product"/>
+    </record>
+    <record id="security_product_cost" model="res.groups">
+        <field name="name">Product update cost</field>
+        <field name="category_id" ref="security_product"/>
+    </record>
+    <record id="security_product_quantity" model="res.groups">
+        <field name="name">Product update quantity</field>
+        <field name="category_id" ref="security_product"/>
+    </record>
+    <record id="security_product_archive" model="res.groups">
+        <field name="name">Archive Product</field>
+        <field name="category_id" ref="security_product"/>
+    </record>
+    <record id="security_product_no_create_edit_views" model="res.groups">
+        <field name="name">No Create/Edit in other Views</field>
+        <field name="category_id" ref="security_product"/>
+    </record>
+</odoo>

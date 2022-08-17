@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="l10n_website_form_view" model="ir.ui.view">
+        <field name="name">l10n_website.form.view</field>
+        <field name="model">website</field>
+        <field name="inherit_id" ref="website.view_website_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//form/sheet/div[@name='other']" position="after">
+                <div name="terms_conditions">
+                    <group name="terms_conditions">
+                        <field name="term_conditions"/>
+                        <field name="link_term_conditions"
+                               attrs="{'required': [('term_conditions','=',True)],'invisible':[('term_conditions','=',False)]}"/>
+                    </group>
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,149 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* restrict_view_create_edit_link
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e-20211213\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-11 00:51+0000\n"
+"PO-Revision-Date: 2022-01-11 00:51+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: restrict_view_create_edit_link
+#: model:ir.model.fields,field_description:restrict_view_create_edit_link.field_ir_model__access_links
+#: model:ir.model.fields,field_description:restrict_view_create_edit_link.field_ir_model_fields__access_links
+msgid "Access Create Edit Links"
+msgstr "Accesos Crear Editar Vinculos."
+
+#. module: restrict_view_create_edit_link
+#: model:res.groups,name:restrict_view_create_edit_link.group_create_edit_link
+msgid "Configure Access Create/Edit Link"
+msgstr "Configurar Accesos Crear/Editar"
+
+#. module: restrict_view_create_edit_link
+#: model_terms:ir.ui.view,arch_db:restrict_view_create_edit_link.pg_ir_model_restrict
+msgid "Create/Edit Access"
+msgstr "Configurar Crear/Editar"
+
+#. module: restrict_view_create_edit_link
+#: model:ir.model.fields,field_description:restrict_view_create_edit_link.field_ir_model_access_link__create_uid
+msgid "Created by"
+msgstr "Create por"
+
+#. module: restrict_view_create_edit_link
+#: model:ir.model.fields,field_description:restrict_view_create_edit_link.field_ir_model_access_link__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: restrict_view_create_edit_link
+#: model:ir.model.fields,field_description:restrict_view_create_edit_link.field_ir_model__display_name
+#: model:ir.model.fields,field_description:restrict_view_create_edit_link.field_ir_model_access_link__display_name
+#: model:ir.model.fields,field_description:restrict_view_create_edit_link.field_ir_model_fields__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: restrict_view_create_edit_link
+#: model:ir.model,name:restrict_view_create_edit_link.model_ir_model_fields
+msgid "Fields"
+msgstr "Campos"
+
+#. module: restrict_view_create_edit_link
+#: model:ir.model.fields,field_description:restrict_view_create_edit_link.field_ir_model_access_link__hide_archived
+msgid "Hide Button Archived"
+msgstr "Ocultar boton archivar"
+
+#. module: restrict_view_create_edit_link
+#: model:ir.model.fields,field_description:restrict_view_create_edit_link.field_ir_model_access_link__hide_create
+msgid "Hide Create Button"
+msgstr "Ocultar boton crear"
+
+#. module: restrict_view_create_edit_link
+#: model:ir.model.fields,field_description:restrict_view_create_edit_link.field_ir_model_access_link__hide_create_link
+msgid "Hide Create Link"
+msgstr "Ocultar creado rapido"
+
+#. module: restrict_view_create_edit_link
+#: model:ir.model.fields,field_description:restrict_view_create_edit_link.field_ir_model_access_link__hide_unlink
+msgid "Hide Delete Action"
+msgstr "Ocultar boton eliminar"
+
+#. module: restrict_view_create_edit_link
+#: model:ir.model.fields,field_description:restrict_view_create_edit_link.field_ir_model_access_link__hide_duplicate
+msgid "Hide Duplicate Action"
+msgstr "Ocultar boton duplicar"
+
+#. module: restrict_view_create_edit_link
+#: model:ir.model.fields,field_description:restrict_view_create_edit_link.field_ir_model_access_link__hide_edit
+msgid "Hide Edit Button"
+msgstr "Ocultar boton editar"
+
+#. module: restrict_view_create_edit_link
+#: model:ir.model.fields,field_description:restrict_view_create_edit_link.field_ir_model_access_link__hide_edit_link
+msgid "Hide Edit Link"
+msgstr "No editar en emergente"
+
+#. module: restrict_view_create_edit_link
+#: model:ir.model.fields,field_description:restrict_view_create_edit_link.field_ir_model__id
+#: model:ir.model.fields,field_description:restrict_view_create_edit_link.field_ir_model_access_link__id
+#: model:ir.model.fields,field_description:restrict_view_create_edit_link.field_ir_model_fields__id
+msgid "ID"
+msgstr "ID"
+
+#. module: restrict_view_create_edit_link
+#: model:ir.model.fields,field_description:restrict_view_create_edit_link.field_ir_model____last_update
+#: model:ir.model.fields,field_description:restrict_view_create_edit_link.field_ir_model_access_link____last_update
+#: model:ir.model.fields,field_description:restrict_view_create_edit_link.field_ir_model_fields____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: restrict_view_create_edit_link
+#: model:ir.model.fields,field_description:restrict_view_create_edit_link.field_ir_model_access_link__write_uid
+msgid "Last Updated by"
+msgstr "Ultima Actualizacion por"
+
+#. module: restrict_view_create_edit_link
+#: model:ir.model.fields,field_description:restrict_view_create_edit_link.field_ir_model_access_link__write_date
+msgid "Last Updated on"
+msgstr "Ultima Actualizacion en"
+
+#. module: restrict_view_create_edit_link
+#: model:ir.model.fields,field_description:restrict_view_create_edit_link.field_ir_model_access_link__model_id
+msgid "Model"
+msgstr "Modelo"
+
+#. module: restrict_view_create_edit_link
+#: model:ir.model.fields,field_description:restrict_view_create_edit_link.field_ir_model_access_link__name
+msgid "Model Name"
+msgstr "Nombre del modelo"
+
+#. module: restrict_view_create_edit_link
+#: model:ir.model,name:restrict_view_create_edit_link.model_ir_model_access_link
+msgid "Model allows to show or hide link create and edit."
+msgstr "Permite mostrar/ocultar botones link crear/editar"
+
+#. module: restrict_view_create_edit_link
+#: model:ir.model,name:restrict_view_create_edit_link.model_ir_model
+msgid "Models"
+msgstr "Modelos"
+
+#. module: restrict_view_create_edit_link
+#: code:addons/restrict_view_create_edit_link/models/ir_model.py:0
+#, python-format
+msgid "No restrict for this model."
+msgstr "Sin restricciones para este modelo"
+
+#. module: restrict_view_create_edit_link
+#: model:ir.model.fields,field_description:restrict_view_create_edit_link.field_ir_model_access_link__user_id
+msgid "User"
+msgstr "Usuario"
+
+#. module: restrict_view_create_edit_link
+#: model:ir.model.constraint,message:restrict_view_create_edit_link.constraint_ir_model_access_link_model_user_unique
+msgid "You cannot have two records for the same user."
+msgstr "Solo se permite un usuario por modelo."

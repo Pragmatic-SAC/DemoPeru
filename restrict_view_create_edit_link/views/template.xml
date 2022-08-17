@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="pg_template_restrict_links" name="Template Restrict Links" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/restrict_view_create_edit_link/static/src/js/basic_view.js"/>
+            <script type="text/javascript"
+                    src="/restrict_view_create_edit_link/static/src/js/model_no_create_edit_link.js"/>¬
+        </xpath>
+    </template>
+</odoo>

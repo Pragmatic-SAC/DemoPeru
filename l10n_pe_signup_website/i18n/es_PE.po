@@ -1,0 +1,308 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_pe_signup_website
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-23 13:00+0000\n"
+"PO-Revision-Date: 2022-05-23 13:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_pe_signup_website
+#: model_terms:ir.ui.view,arch_db:l10n_pe_signup_website.address_form_localization_website
+msgid "(*) I accept the"
+msgstr "(*) Acepto los"
+
+#. module: l10n_pe_signup_website
+#: model_terms:ir.ui.view,arch_db:l10n_pe_signup_website.address_form_localization_website
+msgid ""
+"<i class=\"fa fa-chevron-left\"/>\n"
+"                                    <span>Back</span>"
+msgstr ""
+"<i class=\"fa fa-chevron-left\"/>\n"
+"                                    <span>Atrás</span>"
+
+#. module: l10n_pe_signup_website
+#: model_terms:ir.ui.view,arch_db:l10n_pe_signup_website.address_form_localization_website
+msgid ""
+"<span>Next</span>\n"
+"                                    <i class=\"fa fa-chevron-right\"/>"
+msgstr ""
+"<span>Siguiente</span>\n"
+"                                    <i class=\"fa fa-chevron-right\"/>"
+
+#. module: l10n_pe_signup_website
+#: code:addons/l10n_pe_signup_website/controller/address.py:0
+#: code:addons/l10n_pe_signup_website/controller/address.py:0
+#, python-format
+msgid "Authentication Failed."
+msgstr "Autenticación fallida."
+
+#. module: l10n_pe_signup_website
+#: model_terms:ir.ui.view,arch_db:l10n_pe_signup_website.address_form_localization_website
+msgid "Be aware!"
+msgstr "Esté atento."
+
+#. module: l10n_pe_signup_website
+#: model_terms:ir.ui.view,arch_db:l10n_pe_signup_website.address_form_localization_website
+msgid "Company"
+msgstr "Compañia"
+
+#. module: l10n_pe_signup_website
+#: model:ir.model,name:l10n_pe_signup_website.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: l10n_pe_signup_website
+#: model_terms:ir.ui.view,arch_db:l10n_pe_signup_website.address_form_localization_website
+msgid "Country"
+msgstr "País"
+
+#. module: l10n_pe_signup_website
+#: model:ir.model.fields,field_description:l10n_pe_signup_website.field_res_partner__display_name
+#: model:ir.model.fields,field_description:l10n_pe_signup_website.field_website__display_name
+msgid "Display Name"
+msgstr "Nombre a Mostrar"
+
+#. module: l10n_pe_signup_website
+#: model_terms:ir.ui.view,arch_db:l10n_pe_signup_website.address_form_localization_website
+msgid "District"
+msgstr "Distrito"
+
+#. module: l10n_pe_signup_website
+#: model_terms:ir.ui.view,arch_db:l10n_pe_signup_website.address_form_localization_website
+msgid "Document Type"
+msgstr "Tipo Documento"
+
+#. module: l10n_pe_signup_website
+#: model_terms:ir.ui.view,arch_db:l10n_pe_signup_website.address_form_localization_website
+msgid "Email"
+msgstr "Correo"
+
+#. module: l10n_pe_signup_website
+#: model:ir.model.fields,field_description:l10n_pe_signup_website.field_res_partner__term_conditions
+#: model:ir.model.fields,field_description:l10n_pe_signup_website.field_res_users__term_conditions
+#: model:ir.model.fields,field_description:l10n_pe_signup_website.field_website__term_conditions
+msgid "Has Terms and Conditions"
+msgstr "Términos y condiciones"
+
+#. module: l10n_pe_signup_website
+#: model:ir.model.fields,field_description:l10n_pe_signup_website.field_res_partner__id
+#: model:ir.model.fields,field_description:l10n_pe_signup_website.field_website__id
+msgid "ID"
+msgstr ""
+
+#. module: l10n_pe_signup_website
+#: code:addons/l10n_pe_signup_website/controller/address.py:0
+#: code:addons/l10n_pe_signup_website/controller/address.py:0
+#, python-format
+msgid ""
+"Invalid document number, verify number of digits according to document type."
+msgstr ""
+"Número de documento no válido, verifique el número de dígitos según el tipo "
+"de documento"
+
+#. module: l10n_pe_signup_website
+#: model:ir.model.fields,field_description:l10n_pe_signup_website.field_res_partner____last_update
+#: model:ir.model.fields,field_description:l10n_pe_signup_website.field_website____last_update
+msgid "Last Modified on"
+msgstr "Ultima Modificación en"
+
+#. module: l10n_pe_signup_website
+#: model_terms:ir.ui.view,arch_db:l10n_pe_signup_website.address_form_localization_website
+msgid "Log In"
+msgstr "Iniciar sesión"
+
+#. module: l10n_pe_signup_website
+#: model_terms:ir.ui.view,arch_db:l10n_pe_signup_website.address_form_localization_website
+msgid "Name"
+msgstr "Nombre Completo"
+
+#. module: l10n_pe_signup_website
+#: model_terms:ir.ui.view,arch_db:l10n_pe_signup_website.address_form_localization_website
+msgid "Password"
+msgstr "Contraseña"
+
+#. module: l10n_pe_signup_website
+#: code:addons/l10n_pe_signup_website/controller/address.py:0
+#, python-format
+msgid "Passwords must be at least 8 digits long."
+msgstr "Las contraseñas deben tener al menos 8 dígitos."
+
+#. module: l10n_pe_signup_website
+#: model_terms:ir.ui.view,arch_db:l10n_pe_signup_website.address_form_localization_website
+msgid "Person"
+msgstr "Persona"
+
+#. module: l10n_pe_signup_website
+#: model_terms:ir.ui.view,arch_db:l10n_pe_signup_website.address_form_localization_website
+msgid "Phone"
+msgstr "Teléfono"
+
+#. module: l10n_pe_signup_website
+#: code:addons/l10n_pe_signup_website/controller/address.py:0
+#, python-format
+msgid "Select the district from the list correctly."
+msgstr "Seleccione correctamente el distrito de la lista."
+
+#. module: l10n_pe_signup_website
+#: code:addons/l10n_pe_signup_website/controller/address.py:0
+#, python-format
+msgid "Select the valid document type."
+msgstr "Seleccione el tipo de documento válido."
+
+#. module: l10n_pe_signup_website
+#: model_terms:ir.ui.view,arch_db:l10n_pe_signup_website.address_form_localization_website
+msgid ""
+"Ship to the same\n"
+"                                                address\n"
+"                                                <span class=\"ship_to_other text-muted\" style=\"display: none\">&amp;nbsp;(\n"
+"                                                    <i>Your shipping address will be requested later)</i>\n"
+"                                                </span>"
+msgstr ""
+"Enviar a la misma\n"
+"                                                dirección\n"
+"                                                <span class=\"ship_to_other text-muted\" style=\"display: none\">&amp;nbsp;(\n"
+"                                                    <i>Se le pedirá la dirección de envío luego)</i>\n"
+"                                                </span>"
+
+#. module: l10n_pe_signup_website
+#: model_terms:ir.ui.view,arch_db:l10n_pe_signup_website.address_form_localization_website
+msgid "Shipping Address"
+msgstr "Dirección de envío"
+
+#. module: l10n_pe_signup_website
+#: model_terms:ir.ui.view,arch_db:l10n_pe_signup_website.address_form_localization_website
+msgid ""
+"Street\n"
+"                                        <span class=\"d-none d-md-inline\">and Number</span>"
+msgstr ""
+"Calle\n"
+"                                        <span class=\"d-none d-md-inline\">y número</span>"
+
+#. module: l10n_pe_signup_website
+#: model_terms:ir.ui.view,arch_db:l10n_pe_signup_website.address_form_localization_website
+msgid "Street 2"
+msgstr "Calle 2"
+
+#. module: l10n_pe_signup_website
+#: model_terms:ir.ui.view,arch_db:l10n_pe_signup_website.l10n_res_partner_form_view
+msgid "Terms and Conditions"
+msgstr "Términos y Condiciones"
+
+#. module: l10n_pe_signup_website
+#: code:addons/l10n_pe_signup_website/controller/address.py:0
+#: code:addons/l10n_pe_signup_website/controller/address.py:0
+#, python-format
+msgid "The document number is already registered."
+msgstr "El número de documento ya está registrado."
+
+#. module: l10n_pe_signup_website
+#: code:addons/l10n_pe_signup_website/controller/address.py:0
+#, python-format
+msgid "The user already exists, reset password."
+msgstr "El usuario ya existe, restablezca la contraseña."
+
+#. module: l10n_pe_signup_website
+#: model_terms:ir.ui.view,arch_db:l10n_pe_signup_website.address_form_localization_website
+msgid "True"
+msgstr ""
+
+#. module: l10n_pe_signup_website
+#: model_terms:ir.ui.view,arch_db:l10n_pe_signup_website.address_form_localization_website
+msgid "Type"
+msgstr "Tipo"
+
+#. module: l10n_pe_signup_website
+#: model:ir.model.fields,field_description:l10n_pe_signup_website.field_website__link_term_conditions
+msgid "URL Terms and Conditions"
+msgstr "URL Términos y Condiciones"
+
+#. module: l10n_pe_signup_website
+#: code:addons/l10n_pe_signup_website/controller/address.py:0
+#, python-format
+msgid "User exist"
+msgstr "Usuario existe"
+
+#. module: l10n_pe_signup_website
+#: model_terms:ir.ui.view,arch_db:l10n_pe_signup_website.address_form_localization_website
+msgid "VAT"
+msgstr "Número documento"
+
+#. module: l10n_pe_signup_website
+#: code:addons/l10n_pe_signup_website/controller/address.py:0
+#: code:addons/l10n_pe_signup_website/controller/address.py:0
+#, python-format
+msgid ""
+"Validation digits for the document type are missing, contact the "
+"administrator."
+msgstr ""
+"Faltan dígitos de validación para el tipo de documento, póngase en contacto "
+"con el administrador."
+
+#. module: l10n_pe_signup_website
+#: model:ir.model,name:l10n_pe_signup_website.model_website
+msgid "Website"
+msgstr "Sitio Web"
+
+#. module: l10n_pe_signup_website
+#: model_terms:ir.ui.view,arch_db:l10n_pe_signup_website.address_form_localization_website
+msgid ""
+"You are editing your <b>billing and shipping</b> addresses at the same time!\n"
+"                                    <br/>\n"
+"                                    If you want to modify your shipping address, create a"
+msgstr ""
+"Estás editando tu <b>facturación y envío</b> direcciones al mismo tiempo!\n"
+"                                    <br/>\n"
+"                                    Si desea modificar su dirección de envío, cree un"
+
+#. module: l10n_pe_signup_website
+#: code:addons/l10n_pe_signup_website/controller/address.py:0
+#: code:addons/l10n_pe_signup_website/controller/address.py:0
+#, python-format
+msgid "You must accept the terms and conditions."
+msgstr "Debe aceptar los términos y condiciones."
+
+#. module: l10n_pe_signup_website
+#: model_terms:ir.ui.view,arch_db:l10n_pe_signup_website.address_form_localization_website
+msgid "Your Address"
+msgstr "Su dirección"
+
+#. module: l10n_pe_signup_website
+#: model_terms:ir.ui.view,arch_db:l10n_pe_signup_website.address_form_localization_website
+msgid ""
+"Your Address\n"
+"                                <small>or</small>"
+msgstr ""
+"Su dirección\n"
+"                                <small>o</small>"
+
+#. module: l10n_pe_signup_website
+#: model_terms:ir.ui.view,arch_db:l10n_pe_signup_website.address_form_localization_website
+msgid "Zip Code"
+msgstr "Ubigeo"
+
+#. module: l10n_pe_signup_website
+#: model_terms:ir.ui.view,arch_db:l10n_pe_signup_website.address_form_localization_website
+msgid ""
+"new\n"
+"                                    address"
+msgstr ""
+"Nueva\n"
+"                                    dirección"
+
+#. module: l10n_pe_signup_website
+#: model_terms:ir.ui.view,arch_db:l10n_pe_signup_website.address_form_localization_website
+msgid ""
+"terms and\n"
+"                                                    conditions"
+msgstr ""
+"términos y\n"
+"                                                    condiciones"

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="rowno_tree_sale_purchase_assets_backend" name="rowno_tree_sale_purchase_assets"
+                  inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet" href="/rowno_tree_sale_purchase/static/src/scss/list_view.scss"/>
+                <script type="text/javascript" src="/rowno_tree_sale_purchase/static/src/js/list_view.js"></script>
+            </xpath>
+        </template>
+    </data>
+</odoo>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="pg_product_template_tree_security_edit" model="ir.ui.view">
+        <field name="name">product.template.tree.inherit.edit</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_tree_view"/>
+        <field name="groups_id" eval="[(4,ref('pg_product_security.security_product_edit'))]"/>
+        <field name="arch" type="xml">
+            <xpath expr="//tree" position="attributes">
+                <attribute name="edit">false</attribute>
+            </xpath>
+        </field>
+    </record>
+    <record id="pg_product_template_tree_security_create" model="ir.ui.view">
+        <field name="name">product.template.tree.inherit.create</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_tree_view"/>
+        <field name="groups_id" eval="[(4,ref('pg_product_security.security_product_create'))]"/>
+        <field name="arch" type="xml">
+            <xpath expr="//tree" position="attributes">
+                <attribute name="create">false</attribute>
+            </xpath>
+        </field>
+    </record>
+    <record id="pg_product_template_kanban_security_edit" model="ir.ui.view">
+        <field name="name">product.template.kanban.inherit.edit</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_kanban_view"/>
+        <field name="groups_id" eval="[(4,ref('pg_product_security.security_product_edit'))]"/>
+        <field name="arch" type="xml">
+            <xpath expr="//kanban" position="attributes">
+                <attribute name="edit">false</attribute>
+            </xpath>
+        </field>
+    </record>
+    <record id="pg_product_template_kanban_security_create" model="ir.ui.view">
+        <field name="name">product.template.kanban.inherit.create</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_kanban_view"/>
+        <field name="groups_id" eval="[(4,ref('pg_product_security.security_product_create'))]"/>
+        <field name="arch" type="xml">
+            <xpath expr="//kanban" position="attributes">
+                <attribute name="create">false</attribute>
+            </xpath>
+        </field>
+    </record>
+    <record id="pg_product_template_security_edit" model="ir.ui.view">
+        <field name="name">product.template.inherit.edit</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_only_form_view"/>
+        <field name="groups_id" eval="[(4,ref('pg_product_security.security_product_edit'))]"/>
+        <field name="arch" type="xml">
+            <xpath expr="/form" position="attributes">
+                <attribute name="edit">false</attribute>
+            </xpath>
+        </field>
+    </record>
+    <record id="pg_product_template_security_create" model="ir.ui.view">
+        <field name="name">product.template.inherit.create</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_only_form_view"/>
+        <field name="groups_id" eval="[(4,ref('pg_product_security.security_product_create'))]"/>
+        <field name="arch" type="xml">
+            <xpath expr="/form" position="attributes">
+                <attribute name="create">false</attribute>
+            </xpath>
+        </field>
+    </record>
+    <record id="pg_product_template_security" model="ir.ui.view">
+        <field name="name">product.template.inherit.security</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_only_form_view"/>
+        <field name="arch" type="xml">
+            <field name="type" position="after">
+                <field name="can_edit_price" invisible="1"/>
+                <field name="can_edit_cost" invisible="1"/>
+            </field>
+            <xpath expr="//field[@name='list_price']" position="attributes">
+                <attribute name="attrs">{'readonly': [('can_edit_price', '=', False)]}</attribute>
+            </xpath>
+            <xpath expr="//button[@name='open_pricelist_rules']" position="attributes">
+                <attribute name="attrs">{'readonly': [('can_edit_price', '=', False)]}</attribute>
+            </xpath>
+            <xpath expr="//button[@name='open_pricelist_rules']" position="attributes">
+                <attribute name="groups">pg_product_security.security_product_price</attribute>
+            </xpath>
+            <xpath expr="//field[@name='standard_price']" position="attributes">
+                <attribute name="attrs">{'readonly': [('can_edit_cost', '=', False)]}</attribute>
+            </xpath>
+            <!-- <xpath expr="//span[@name='update_cost_price']//button" position="attributes">
+                 <attribute name="groups">pg_product_security.security_product_cost</attribute>
+             </xpath>-->
+        </field>
+    </record>
+    <record id="pg_product_template_security2" model="ir.ui.view">
+        <field name="name">product.template.inherit.security2</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="stock.product_template_form_view_procurement_button"/>
+        <field name="arch" type="xml">
+            <xpath expr="//button[@name='action_update_quantity_on_hand']" position="attributes">
+                <attribute name="groups">pg_product_security.security_product_quantity</attribute>
+            </xpath>
+            <xpath expr="//button[@name='%(stock.action_product_replenish)d']" position="attributes">
+                <attribute name="groups">pg_product_security.security_product_quantity</attribute>
+            </xpath>
+        </field>
+    </record>
+</odoo>

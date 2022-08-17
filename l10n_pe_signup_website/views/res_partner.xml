@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="l10n_res_partner_form_view" model="ir.ui.view">
+        <field name="name">l10n_res.partner.form.view</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//page[@name='sales_purchases']/group/group[@name='misc']" position="after">
+                <group name="terms_conditions" string="Terms and Conditions">
+                    <field name="term_conditions"/>
+                </group>
+            </xpath>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="pg_lztn_product_template" name="Product Template" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/pg_product_security/static/src/js/basic_view.js"/>
+            <script type="text/javascript" src="/pg_product_security/static/src/js/product_edit_create.js"/>
+        </xpath>
+    </template>
+</odoo>

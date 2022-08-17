@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="pg_product_product_easy_security" model="ir.ui.view">
+        <field name="name">product.product.inherit.security</field>
+        <field name="model">product.product</field>
+        <field name="inherit_id" ref="product.product_variant_easy_edit_view"/>
+        <field name="arch" type="xml">
+            <field name="type" position="after">
+                <field name="can_edit_price" invisible="1"/>
+            </field>
+            <xpath expr="//field[@name='lst_price']" position="attributes">
+                <attribute name="attrs">{'readonly': [('can_edit_price', '=', False)]}</attribute>
+            </xpath>
+        </field>
+    </record>
+    <record id="pg_product_product_easy_security2" model="ir.ui.view">
+        <field name="name">product.product.inherit.security2</field>
+        <field name="model">product.product</field>
+        <field name="inherit_id" ref="stock.product_product_view_form_easy_inherit_stock"/>
+        <field name="arch" type="xml">
+            <xpath expr="//button[@name='action_update_quantity_on_hand']" position="attributes">
+                <attribute name="groups">pg_product_security.security_product_quantity</attribute>
+            </xpath>
+        </field>
+    </record>
+    <record id="pg_product_product_security" model="ir.ui.view">
+        <field name="name">product.product.inherit.security</field>
+        <field name="model">product.product</field>
+        <field name="inherit_id" ref="product.product_normal_form_view"/>
+        <field name="arch" type="xml">
+            <field name="type" position="after">
+                <field name="can_edit_price" invisible="1"/>
+                <field name="can_edit_cost" invisible="1"/>
+            </field>
+            <xpath expr="//field[@name='lst_price']" position="attributes">
+                <attribute name="attrs">{'readonly': [('can_edit_price', '=', False)]}</attribute>
+            </xpath>
+            <xpath expr="//button[@name='open_pricelist_rules']" position="attributes">
+                <attribute name="attrs">{'readonly': [('can_edit_price', '=', False)]}</attribute>
+            </xpath>
+            <xpath expr="//field[@name='standard_price']" position="attributes">
+                <attribute name="attrs">{'readonly': [('can_edit_cost', '=', False)]}</attribute>
+            </xpath>
+        </field>
+    </record>
+    <record id="pg_product_product_security_edit" model="ir.ui.view">
+        <field name="name">product.product.inherit.edit</field>
+        <field name="model">product.product</field>
+        <field name="inherit_id" ref="product.product_normal_form_view"/>
+        <field name="groups_id" eval="[(4,ref('pg_product_security.security_product_edit'))]"/>
+        <field name="arch" type="xml">
+            <xpath expr="/form" position="attributes">
+                <attribute name="edit">false</attribute>
+            </xpath>
+        </field>
+    </record>
+    <record id="pg_product_product_security_create" model="ir.ui.view">
+        <field name="name">product.product.inherit.create</field>
+        <field name="model">product.product</field>
+        <field name="inherit_id" ref="product.product_normal_form_view"/>
+        <field name="groups_id" eval="[(4,ref('pg_product_security.security_product_create'))]"/>
+        <field name="arch" type="xml">
+            <xpath expr="/form" position="attributes">
+                <attribute name="create">false</attribute>
+            </xpath>
+        </field>
+    </record>
+    <record id="pg_product_product_security2" model="ir.ui.view">
+        <field name="name">product.product.inherit.security2</field>
+        <field name="model">product.product</field>
+        <field name="inherit_id" ref="stock.product_form_view_procurement_button"/>
+        <field name="arch" type="xml">
+            <xpath expr="//button[@name='action_update_quantity_on_hand']" position="attributes">
+                <attribute name="groups">pg_product_security.security_product_quantity</attribute>
+            </xpath>
+            <xpath expr="//button[@name='%(stock.action_product_replenish)d']" position="attributes">
+                <attribute name="groups">pg_product_security.security_product_quantity</attribute>
+            </xpath>
+        </field>
+    </record>
+</odoo>
